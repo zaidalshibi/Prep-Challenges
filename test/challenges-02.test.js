@@ -7,7 +7,7 @@ const {
 } = require("./../code-challenges/challenges-02");
 
 describe("Challenge01", () => {
-  test.skip("reverse_Array", () => {
+  test("reverse_Array", () => {
     expect(reverseArray([1, 2, 3, 4, 5])).toStrictEqual([5, 4, 3, 2, 1]);
     expect(reverseArray(["C#", "JS", "Ruby", "Python"])).toStrictEqual([
       "Python",
